@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  width: 100%;
+  height: 100vh;
+}
 
 ul, li {
   list-style: none;
@@ -13,4 +17,8 @@ a {
 
 img {
   max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
